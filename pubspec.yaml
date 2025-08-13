@@ -1,5 +1,5 @@
 name: erb_monitor
-description: "A new Flutter project."
+description: "ERB Monitor - Sistema de monitoramento de notificações e SMS"
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
 publish_to: 'none' # Remove this line if you wish to publish to pub.dev
@@ -31,9 +31,26 @@ dependencies:
   flutter:
     sdk: flutter
 
-  # The following adds the Cupertino Icons font to your application.
-  # Use with the CupertinoIcons class for iOS style icons.
+  # UI Components
   cupertino_icons: ^1.0.8
+  
+  # Permissions and System Access
+  permission_handler: ^11.3.1
+  android_intent_plus: ^4.0.3
+  notification_listener_service: ^0.3.4
+  
+  # Data Storage
+  shared_preferences: ^2.2.2
+  
+  # Network
+  http: ^1.1.0
+  
+  # Utilities
+  path_provider: ^2.1.2
+  device_info_plus: ^9.1.2
+  
+  # Error Handling and Logging
+  logger: ^2.0.2+1
 
 dev_dependencies:
   flutter_test:
